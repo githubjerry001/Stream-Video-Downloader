@@ -6,7 +6,7 @@ if (window == chrome.extension.getBackgroundPage()) {
 
 			var self = this;
 
-			var maxDownloadNum=2;//最大同时下载数
+			var maxDownloadNum=10;//最大同时下载数
 			var downloadNum=0;//下载数
 			var downloadQueue=new Array();//等待下载队列
 			
@@ -106,7 +106,7 @@ if (window == chrome.extension.getBackgroundPage()) {
 				}
 				else if (m.metod == 'playlist') {
 						if (m.status == 'stop') {
-							if(downloadNum<2)//如果未超过最大下载数
+							if(downloadNum<maxDownloadNum)//如果未超过最大下载数
 							{
 								console.log("download:",m);
 								startPlaylistMedia( m );
