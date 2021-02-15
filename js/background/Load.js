@@ -6,7 +6,7 @@ if (window == chrome.extension.getBackgroundPage()) {
 
 			var self = this;
 
-			var maxDownloadNum=10;//最大同时下载数
+			var maxDownloadNum=30;//最大同时下载数
 			var downloadNum=0;//下载数
 			var downloadQueue=new Array();//等待下载队列
 			
