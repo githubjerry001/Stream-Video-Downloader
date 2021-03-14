@@ -25,7 +25,7 @@
 			"cnn.com",
 			"cbsnews.com",
 			"ok.ru",
-			//"youtube.com",   //jerry, comment youtube domain, enable youtube 
+			"youtube.com",   //jerry, comment youtube domain, enable youtube 
 			"vimeo.com",  
 			'viki.com',
 			

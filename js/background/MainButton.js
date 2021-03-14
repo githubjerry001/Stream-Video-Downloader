@@ -10,9 +10,9 @@ if (window == chrome.extension.getBackgroundPage()) {
 			const MIN_FILESIZE_TO_CHECK = 100 * 1024;
 			
 			const YOUTUBE_URL_SIGNS = [
-				//"//youtube.com",  //jerry, comment youtube domain, enable youtube
-				//"//www.youtube.com",
-				//"//gaming.youtube.com",
+				"//youtube.com",  //jerry, comment youtube domain, enable youtube
+				"//www.youtube.com",
+				"//gaming.youtube.com",
 				"//soloset.net",
 				"//www.soloset.net",
 				"//solosing.com",
